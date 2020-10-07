@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* body{
+  background: cyan;
+} */
+
+.myBtn{
+  width: 60%;
+  margin: 20px auto!important;
+}
+
+.myPara{
+  padding: 20px 30px;
+}
+.myContact{
+  width: 80%;
+  margin:auto;
+}
+
+.logo{
+  width:100px;
+  height:auto;
+  border-radius: 50%;
+}
+footer{
+  height:100px;
+  width:100%;
+  bottom:0;
+  left:0;
+  /* position: fixed; */
+}
+.social{
+  font-size: 2rem;
+
+  /* font-weight: bold; */
+}
+.copy{
+  font-size: 1rem;
+}
+.footer-logo{
+  margin-right: 10px;
+}
+
+@media screen and (min-width:576px){
+  .myPara{
+    padding: 50px 20px!important;
+  }
+  .myContact{
+    width: 80%;
+    margin:auto;
+  }
+}
+
+@media screen and (min-width:768px){
+  .myPara{
+    padding: 50px 100px;
+  }
+  .myContact{
+    width: 60%;
+    margin:auto;
+  }
+}
